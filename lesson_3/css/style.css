@@ -1,0 +1,65 @@
+
+/*-------RESET STYLES----------*/
+
+@import url("reset.css");
+
+/*-----------------------------*/
+
+h1{
+	color: navy;
+}
+
+h2,
+.navigation {
+	color: rgb(17, 0, 255);
+}
+
+a {
+	color: rgb(218, 84, 66);
+}
+
+.name {
+	color: blueviolet;
+}
+
+
+#specifications,
+#games {
+	color: rgb(237, 237, 107);
+}
+
+div.block-technical{
+	color: rgb(213, 13, 213);
+}
+
+.paragraph.text{
+	color: rgb(45, 200, 149);
+}
+
+.block-games p{
+	color: rgb(202, 154, 97);
+}
+
+/*
+.header-content *{
+	color: brown;
+}
+*/
+
+.block-legasy > p{
+	color: rgb(106, 115, 5);
+}
+
+.footer ~ p{
+	color: goldenrod;
+}
+
+.block-games + p{
+	color: rgb(239, 78, 49);
+}
+
+/*
+*{
+	color: green;
+}
+*/
