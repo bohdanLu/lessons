@@ -1,0 +1,123 @@
+/*-----RESET STYLES-----*/
+
+@import url("reset.css");
+
+/*----------------------*/
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap);
+ 
+
+@font-face {
+	font-family: 'Martel';
+	src: url('../fonts/Martel-Regular.woff2') format('woff2'),
+		url('../fonts/Martel-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Martel';
+	src: url('../fonts/Martel-Bold.woff2') format('woff2'),
+		url('../fonts/Martel-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+
+.title {
+	font-family: "Sedgwick Ave Display";
+	font-size: 50px;
+	font-weight: 700;
+	color: rgba(201, 116, 12, 0.358);
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 4px 4px 9px rgba(0, 0, 0, 0.822);
+}
+
+.image {
+	text-align: center;
+}
+
+.header-content {
+font-family: fantasy;
+text-indent: 30px;
+letter-spacing: 2px;
+word-spacing: 5px;
+line-height: 1.8;
+color: rgb(92, 56, 30);
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.739);
+}
+
+.name {
+	color: rgba(201, 81, 228, 0.931);
+	font-weight: 700;
+}
+
+.link {
+	color: blue;
+	text-decoration: underline;
+	text-transform: lowercase;
+}
+
+.navigation {
+	font-family: "Martel";
+	font-weight: 700;
+	color: rgb(226, 69, 69);
+	text-align: center;
+	text-indent: 30px;
+}
+
+.gameplay {
+	font-family: "Poppins";
+	font-weight: 300;
+	text-shadow: 1px 1px 20px rgba(211, 93, 93, 0.562);
+	text-align: right;
+	text-indent: 30px;
+}
+
+.development {
+	font-family: "Martel";
+	text-shadow: 2px 2px 30px rgba(103, 93, 211, 0.562);
+	text-align: justify;
+	text-indent: 30px;
+
+}
+
+.historic {
+	font-family: "Poppins";
+	font-weight: 500;
+	text-indent: 30px;
+	text-align: center;
+	text-shadow: 3px 3px 25px rgba(204, 214, 14, 0.822);
+}
+
+.sales {
+	font-family: "Martel";
+	text-indent: 30px;
+	text-transform: capitalize;
+	text-shadow: 3px 3px 25px rgba(220, 74, 74, 0.822);
+}
+
+.footer {
+	font-family: cursive;
+	white-space: nowrap;
+}
+
+.bottom{
+	text-decoration: line-through;
+}
+
+h2{
+	font-family: "Martel";
+	font-style: italic;
+	font-weight: 700;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: overline;
+}
