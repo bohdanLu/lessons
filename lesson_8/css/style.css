@@ -1,0 +1,252 @@
+/*-----RESET STYLES-----*/
+
+@import url("reset.css");
+
+/*----------------------*/
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,700&display=swap);
+
+@import url(https://fonts.googleapis.com/css?family=Inter:400,500,600,700&display=swap);
+
+
+[class*="__container"] {
+	max-width: 1270px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+
+.top {
+background: url(../img/banner.jpg) 0 50% / cover no-repeat;
+}
+
+.content {
+	font-family: 'Poppins';
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 1.6;
+	color: #E5E5E5;
+	padding-top: 330px;
+	padding-bottom: 100px;
+}
+
+.date {
+	margin-bottom: 15px;
+}
+
+.title {
+	font-weight: 700;
+	font-size: 25px;
+	color: #F8F9FA;
+	max-width: 605px;
+	margin-bottom: 15px;
+}
+
+.text{
+	max-width: 350px;
+}
+
+
+.list {
+	font-family: 'Inter';
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1;
+	color: #637381;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.list__container {
+	max-width: 1175px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.list-title {
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 1;
+	color: #212B36;
+	margin-bottom: 45px;
+}
+
+ul>*:not(:last-child) {
+	margin-bottom: 18px;
+}
+
+li{
+	margin-left: 30px;
+}
+
+.dotted-list li::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/icons/dotted.png") 0 50% no-repeat;
+   padding: 0px 0px 15px 30px;
+	margin-left: -30px;
+	min-height: 8px;
+}
+
+.dotted-list li:hover::before {
+	opacity: 0.5;
+}
+.dotted-list li:hover{
+	color: #212B36;
+}
+
+.blue-check-list li::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/icons/blue.png") 0 0 no-repeat;
+	padding: 0px 0px 0px 30px;
+	min-height: 20px;
+	margin-left: -30px;
+}
+
+.blue-check-list li:hover {
+text-decoration: underline;
+}
+.blue-check-list li:hover::before{
+transform: scale(1.5);
+}
+
+.green-check-list li::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/icons/green.png") 0 0 no-repeat;
+	padding: 0px 0px 0px 30px;
+	min-height: 20px;
+	margin-left: -30px;
+}
+
+.green-check-list li:hover {
+	color: #3056d3;
+}
+.green-check-list li:hover::before{
+	transform: scale(0.5);
+}
+
+.cross-list li::before {
+	content: "";
+	display: inline-block;	
+	background: url("../img/icons/cross.png") 0 0 no-repeat;
+	padding: 0px 0px 0px 30px;
+	min-height: 20px;
+	margin-left: -30px;
+}
+.cross-list li:hover {
+	text-decoration: line-through;
+}
+.cross-list li:hover::before{
+	opacity: 0;
+}
+
+.arrow-list li::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/icons/arrow.png") 0 0 no-repeat;
+	min-width: 20px;
+	padding: 0px 0px 16px 30px;
+	margin-left: -30px;
+}
+.arrow-list li:hover{
+	text-transform: uppercase;
+}
+.arrow-list li:hover::before{
+	transform: rotate(90deg);
+}
+.star-list li::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/icons/star.png") 0 0 no-repeat;
+	padding: 0px 0px 0px 30px;
+	min-height: 20px;
+	margin-left: -30px;
+}
+.star-list li:hover{
+	color: yellow;
+}
+.star-list li:hover::before{
+   transform: skew(30deg, 0);
+}
+
+li:last-child {
+	margin-bottom: 0px;
+}
+
+.list-block ul:not(:last-child) {
+	margin-bottom: 60px;
+}
+
+.advertisement {
+   padding: 82px 0px;
+	background: 
+	url("../img/speaker.png") 83% 50% no-repeat,
+	linear-gradient(118deg, rgba(245, 245, 255, 0) 60%, rgba(48, 85, 210, 0.08) 60%, rgba(244, 248, 255, 0) 100%),
+	linear-gradient(118deg, rgba(244, 247, 255, 0) 64%, rgba(48, 86, 211, 0.08) 64%, rgba(243, 247, 255, 0) 100%) #f4f7ff;
+}
+
+.advertisement__container {
+	max-width: 1200px;
+	padding: 0 15px;
+	margin: 0 auto;
+	
+}
+
+.advertisement-content {
+	font-family: 'Inter';
+	margin: 0px 180px 0px 0px;
+	padding: 64px 0;
+	display: inline-block;
+}
+
+.price {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 24px;
+	color: #3056D3;
+	margin-bottom: 15px;
+}
+
+.name {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.25;
+	color: #212B36;
+	max-width: 470px;
+	margin-bottom: 15px;
+}
+
+.name:hover{
+	text-decoration: underline;
+}
+
+.advertisement-text {
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 500;
+	margin-bottom: 35px;
+	max-width: 570px;
+	color: #637381;
+}
+
+.button {
+	display: inline-block;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #fff;
+	background-color: #3056d3;
+	border-radius: 30px;
+	padding: 10px 30px;
+}
+
+.button:hover {
+	background-color: #071e6d;
+}
+.button:active {
+	background-color: #071f6d9c;
+}
+
