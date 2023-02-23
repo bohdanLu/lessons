@@ -1,0 +1,81 @@
+/*-----RESET STYLES-----*/
+
+@import url("reset.css");
+
+/*----------------------*/
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:300,700&display=swap);
+
+
+.wrapper{
+	font-family: "Playfair Display";
+	font-size: 28px;
+	color: rgb(247, 247, 236);
+	background: rgb(38, 211, 230);
+	background: linear-gradient(356deg, rgba(38, 211, 230, 1) 22%, rgba(40, 203, 93, 1) 43%, rgba(41, 198, 174, 1) 64%, rgba(113, 159, 181, 1) 82%, rgba(45, 149, 253, 1) 100%);	
+}
+
+[class*="_container"] {
+width: 1200px;
+max-width: 100%;
+padding: 80px 15px;
+margin: 0 auto;
+}
+
+h2{
+	text-align: center;
+	font-size: 40px;
+	text-decoration: underline;
+	margin-bottom: 50px;
+}
+
+p{
+	max-width: 800px;
+	margin: 0 auto 50px;
+}
+
+img{
+	margin: 15px 30px 15px 0px;
+	max-width: 320px;
+	
+}
+
+.image{
+	text-align: center;
+	font-size: 0px;
+}
+
+.element{
+	font-size: 0px;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.element-one{
+	display: inline-block;
+	padding: 30px;
+	background: url(../img/design/dottedone.svg) no-repeat;
+	margin-right: 50px;
+}
+.element-two{
+	display: inline-block;
+	padding: 30px;
+	background: url(../img/design/dottedshape.svg) no-repeat;
+	margin-right: 50px;
+}
+.element-three {
+	display: inline-block;
+	padding: 30px;
+	background: url(../img/design/oval.svg) no-repeat;
+	margin-right: 50px;
+}
+.element-four {
+	display: inline-block;
+	padding: 90px;
+	background: url(../img/design/rectangle.svg) no-repeat;
+}
+
+.icons{
+	font-size: 0px;
+	max-width: 1000px;
+	margin: 0 auto;
+}
